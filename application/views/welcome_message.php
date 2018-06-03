@@ -15,19 +15,18 @@
 
     	<div class="container">
 			<div class="row" style="margin-top: 150px">
-			    <div class="col-4">
-			      	
-			    </div>
+			    <div class="col-4"></div>
 			    <div class="col-4" style="background-color:#fff;padding: 80px 25px 80px 25px">
-					<form>
+			    	<?php echo $this->session->flashdata('message');?>
+					<form method="POST" action="<?php site_url() ?>signin">
 					  	<div class="form-group">
 					    	<!-- <label for="exampleInputEmail1">Email address</label> -->
-					    	<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" autofocus>
+					    	<input type="email" class="form-control" name="email" id="" placeholder="Enter email" autofocus>
 					    	<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
 					  	</div>
 					  	<div class="form-group">
 					    	<!-- <label for="exampleInputPassword1">Password</label> -->
-					    	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+					    	<input type="password" class="form-control" name="password" id="" placeholder="Password">
 					  	</div>
 					  	<div class="form-group">
 					    	<a href="<?php site_url() ?>forgot">Forgot Password ?</a>
@@ -35,9 +34,7 @@
 					  	<button type="submit" class="btn btn-primary btn-block">Sign In</button>
 					</form>
 			    </div>
-			    <div class="col-4">
-			      	
-			    </div>
+			    <div class="col-4"></div>
 			 </div>
 		</div>
     	<!-- Optional JavaScript -->
