@@ -1,22 +1,16 @@
 <!doctype html>
 <html lang="en">
   	<head>
-    	<!-- Required meta tags -->
     	<meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    	<!-- Bootstrap CSS -->
     	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-
     	<title>...</title>
   	</head>
   	<body style="background-color: #3498db">
-    	<!-- <h1>Hello, world!</h1> -->
-
     	<div class="container">
 			<div class="row" style="margin-top: 150px">
-			    <div class="col-4"></div>
-			    <div class="col-4" style="background-color:#fff;padding: 80px 25px 80px 25px">
+			    <div class="col-sm-4"></div>
+			    <div class="col-sm-4" style="background-color:#fff;padding: 80px 25px 80px 25px">
 			    	<?php echo $this->session->flashdata('message');?>
 					<form method="POST" action="<?php site_url() ?>signin">
 					  	<div class="form-group">
@@ -34,7 +28,7 @@
 					  	<button type="submit" class="btn btn-primary btn-block">Sign In</button>
 					</form>
 			    </div>
-			    <div class="col-4"></div>
+			    <div class="col-sm-4"></div>
 			 </div>
 		</div>
     	<!-- Optional JavaScript -->

@@ -15,10 +15,10 @@
 
     	<div class="container">
 			<div class="row" style="margin-top: 150px">
-			    <div class="col-4">
+			    <div class="col-sm-4">
 			      	
 			    </div>
-			    <div class="col-4" style="background-color:#fff;padding: 80px 20px 80px 25px">
+			    <div class="col-sm-4" style="background-color:#fff;padding: 80px 20px 80px 25px">
 					<form>
 					  	<div class="form-group">
 					    	<label for="exampleInputEmail1"><b>Enter your email address and we will send you a link to reset your password.</b></label>
@@ -28,7 +28,7 @@
 					  	<button type="submit" class="btn btn-primary btn-block">Send</button>
 					</form>
 			    </div>
-			    <div class="col-4">
+			    <div class="col-sm-4">
 			      	
 			    </div>
 			 </div>
