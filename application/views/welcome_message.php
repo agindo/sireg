@@ -18,7 +18,7 @@
 			    <div class="col-4"></div>
 			    <div class="col-4" style="background-color:#fff;padding: 80px 25px 80px 25px">
 			    	<?php echo $this->session->flashdata('message');?>
-					<form method="POST" action="<?php site_url() ?>signin">
+					<form method="POST" action="<?php site_url() ?>SignIn">
 					  	<div class="form-group">
 					    	<!-- <label for="exampleInputEmail1">Email address</label> -->
 					    	<input type="email" class="form-control" name="email" id="" placeholder="Enter email" autofocus>
